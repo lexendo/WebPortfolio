@@ -1,8 +1,13 @@
-import { RouterProvider } from "react-router-dom";
-import { router } from "@/router/AppRoutes";
+import Galaxy from "@/layout/Galaxy"
+import Footer from "@/components/Footer";
 
 function App() {
-    return <RouterProvider router={router} />;
+    return (
+        <>
+            <Galaxy />
+            <Footer />
+        </>
+    )
 }
 
 export default App
